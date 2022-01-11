@@ -1,4 +1,5 @@
+stepDefinitions\LoginSteps.class
 runners\MainRunner.class
 stepDefinitions\base\Hooks.class
-stepDefinitions\LoginSteps.class
+runners\FailedRunner.class
 stepDefinitions\ContactUsSteps.class

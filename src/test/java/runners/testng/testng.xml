@@ -4,6 +4,7 @@
     <test name="Test">
         <classes>
             <class name="runners.MainRunner"/>
+            <class name="runners.FailedRunner"/>
         </classes>
     </test>
 </suite>
