@@ -9,7 +9,7 @@ import org.testng.annotations.DataProvider;
         plugin = {"pretty",
                 "html:target/cucumber",
                 "json:target/cucumber.json",
-                "rerun:target/failedrun_test.txt"})
+                "rerun:target/failed_test.txt"})
 
 public class MainRunner extends AbstractTestNGCucumberTests {
     @Override
