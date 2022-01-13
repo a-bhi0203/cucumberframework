@@ -1,10 +1,11 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 36.918 s <<< FAILURE! - in TestSuite
-runners.FailedRunner.runScenario["Validate - Successful & Unsuccessful Login", "Optional[WebDriver University - Login Page]"](1)  Time elapsed: 6.762 s  <<< FAILURE!
-java.lang.AssertionError: expected [validation succeeded] but found [validation failed]
+Tests run: 8, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 35.59 s <<< FAILURE! - in TestSuite
+runners.FailedRunner.setUpClass[org.testng.TestRunner@63962c8e](0)  Time elapsed: 1.294 s  <<< FAILURE!
+io.cucumber.core.exception.CucumberException: Failed to parse 'target\failed_test.txt'
+Caused by: java.nio.file.NoSuchFileException: target\failed_test.txt
 
-runners.MainRunner.runScenario["Validate - Successful & Unsuccessful Login", "Optional[WebDriver University - Login Page]"](5)  Time elapsed: 2.965 s  <<< FAILURE!
+runners.MainRunner.runScenario["Validate - Successful & Unsuccessful Login", "Optional[WebDriver University - Login Page]"](5)  Time elapsed: 3.527 s  <<< FAILURE!
 java.lang.AssertionError: expected [validation succeeded] but found [validation failed]
 

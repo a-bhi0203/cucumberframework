@@ -6,9 +6,7 @@ import org.testng.annotations.DataProvider;
 
 @CucumberOptions(features = {"@target/failed_test.txt"}, glue = {"stepDefinitions"},
         tags = "", monochrome = true, dryRun = false,
-        plugin = {"pretty",
-                "html:target/cucumber_fail",
-                "json:target/cucumber_fail.json"})
+        plugin = {"pretty"})
 
 public class FailedRunner extends AbstractTestNGCucumberTests {
     @Override
