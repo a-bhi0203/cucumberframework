@@ -4,7 +4,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 import org.testng.annotations.DataProvider;
 
-@CucumberOptions(features = {"@target/failed_test.txt"}, glue = {"stepDefinitions"},
+@CucumberOptions(features = {"@target/failedrun_test.txt"}, glue = {"stepDefinitions"},
         tags = "", monochrome = true, dryRun = false,
         plugin = {"pretty"})
 
